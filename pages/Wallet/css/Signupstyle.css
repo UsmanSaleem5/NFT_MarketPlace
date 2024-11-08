@@ -1,0 +1,366 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* making the navBar  */
+body{
+    background-color: #2b2b2b;
+}
+
+
+.disable-for-style{
+    display: none;
+}
+/* making the burgger */
+
+.burger{
+    position: absolute;
+    top: 25px;
+    right: 8%;
+    display: none;
+}
+.line{
+    width: 8px;
+    height: 1px;
+    margin-top: 4px;
+    background-color: white;
+}
+.line2{
+ width: 14px;   
+}
+
+
+
+
+
+/* MAKING THE NAVBAR  */
+.header{    
+    background-color: #2b2b2b; 
+padding-top:0.5pc;
+}
+.navbar{
+    height: 100px;
+    position: relative;
+    margin: auto;
+    display: flex;
+    max-width: 95%;
+    /* height:   80%; */
+color: white;
+
+}
+
+
+.nav-logo-sec{
+display: flex;                  
+align-items: center;
+font-style: normal;
+width: 65%;
+font-size: 1.6vw ;
+line-height: 14vh;
+}
+.nav-front-logo i{
+    color: #a259ff;
+    cursor: pointer;
+}
+.nav-logo-text{
+    cursor: pointer;
+    padding-left: 10px;
+    font-family: "Tinos", serif;
+    font-weight: 700;
+}
+.nav-list-sec{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    font-family: Work sans,sans-serif;
+}
+.nav-list-sec ul{
+    display: flex;
+justify-content: center;
+text-align: center;
+}
+.nav-list-sec ul li{
+    white-space: nowrap;
+    list-style: none;
+max-height: 60%;
+
+}
+.nav-list-sec ul li a{
+    text-decoration: none;
+    color: white;
+ cursor: pointer;
+ font-size: 1.3vw;
+    margin-right:3pc;
+}
+.nav-list-sec ul li a:hover{
+    color: #a259ff;
+}
+.ul-list{
+    max-width: 70%;
+}
+.nav-btn-sec{
+    width: 30%;
+ padding-left:1pc;
+}
+.nav-button{
+white-space: nowrap;
+    cursor: pointer;
+    border: none;
+    padding: 20px 35px;
+    font-size: 1.2vw;
+    font-weight: 400;
+    font-family: Work Sans,sans-serif;
+    display: flex;
+   background-color: #a259ff;
+    border-radius: 20px;
+    color: white;
+    transition: all ease-in-out  0.2s;
+
+
+}
+.nav-button:hover{
+    border: 1px solid #a259ff;
+    padding:17px 30px    ;
+    background-color: #2b2b2b;
+
+}
+.btn-img-login{
+    padding-right: 6px;
+}
+
+
+/* editing the main section  */
+main{
+    height: 691px;
+    display: flex;
+    color: white;
+    font-family: "Work Sans",sans-serif;
+    
+}
+
+.con-img-sec{
+    width: 50%;
+    height: 100%;
+    /* overflow: hidden; */
+    /* border: none; */
+}
+.con-img-sec img {
+     width: 100%;
+     height: 100%;
+}
+.con-data-sec{
+    width: 40%;
+    height: 80%;
+    margin: auto    ;
+}
+.con-heading1{
+    font-size: 3.5vw;
+    font-weight:600 ;
+    line-height: 56.1px;
+    font-family: "Work Sans",sans-serif;
+    margin-bottom: 1pc;
+}
+.con-heading2{
+        font-size: 1.7vw;
+        font-weight: 400;
+        line-height: 35.5px;
+        margin-bottom: 2pc;
+}
+
+
+
+/* making the wallet section  */
+
+.label{
+    width: 50%;
+    border-radius: 20px;
+    font-family: "Work Sans",serif;
+    align-items: center;
+    font-weight: 400;
+    line-height: 30.8px;
+    display: flex;
+ background-color: #3b3b3b ;
+ padding:0 40px;
+ height: 72px;
+ margin-top: 1pc;
+ border: 1px solid #a259ff;
+}
+.label-img{
+width: 60px;
+height: 60px;
+}
+.label-img img{
+    width: 100%;
+    height: 100%;
+}
+.secondTxt{
+    white-space: noWrap;
+}
+.label-txt{
+    padding-left: 1pc;
+    font-size: 1.8vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* making the footer  */
+.footer{
+    background-color: #3b3b3b;
+    color: white;
+    padding-top: 2.5pc;
+}
+.footer-data{
+    display: flex;
+    width:80%;
+    margin: auto;
+}
+.top-footer-sec{
+    display: flex;
+    width: 100%;
+}
+.def-sec{
+    min-width: 26%;
+}
+.footer-logo{
+    font-family:"Work Sans",Serif;
+    width: 80%;
+    margin-bottom: 2pc;
+
+}
+.def-heading{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    margin:2pc 0 1pc 0;
+    color: rgba(204, 204, 204, 1);
+
+}
+
+.logos-heading{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    color: rgba(204, 204, 204, 1);   
+    margin-bottom:0.5pc;
+ }
+ .logos{
+    font-size: 20px;
+    color: rgba(204, 204, 204, 1);
+    display: flex;
+ }
+ .logos-img{
+    margin-right: 1pc;
+ }
+
+ .explore-sec{
+ margin-left: 6pc;
+    width: 30%;
+/* align-items: center;
+    display: flex;
+    flex-direction: column; */
+ }
+ .footer-logo-txt{
+    font-family: "Space Mono",sans-serif;
+ }
+ .footer-ul-list li {
+    list-style: none;
+    padding-bottom: 1pc;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    color:rgba(204, 204, 204, 1);
+    cursor: pointer;
+ }
+.cont-footer{
+    margin-left: 5pc;
+ /* display: flex;
+ width:100%; */
+}
+.cont-para{
+    padding: 0;
+   margin-top: 1pc;
+   width: 80%;
+   margin-bottom: 2pc ;
+
+}
+.cont-heading{
+    font-family: "Space Mono",serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 35.2px;
+  /* margin-top: 1.5pc; */
+}
+footer hr{
+    width: 80%;
+    margin:1pc auto;
+
+}
+.bottom-footer-sec{
+    width: 80%;
+    margin: auto;
+    padding-bottom:3pc ;
+}
+
+.cont-mail-sec{
+    display: flex;
+    align-items: center;
+}
+.cont-mail{
+    flex-direction: column;
+    display: flex;
+    min-width: 56%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 50px;
+    background-color: white;
+}
+.cont-mail input{
+    border: none;
+    padding: 16px ;
+    background:none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.6px;
+}
+
+.cont-btn{
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 22.4px;
+    font-weight: 600;
+    display: flex;
+    padding: 15px 40px;
+    border-radius: 20px;
+    background-color: #a259ff;
+    color: white;
+    /* min-heighst: 100%; */
+    border: none;
+    position: relative;
+    right: 5pc;
+}
+.cont-btn:hover{
+    color: #a259ff;
+    background-color:#3b3b3b;
+}
+.cont-btn-img{
+    margin-right: 10px;
+}
+.cont-footer{
+    /* justify-content: center;
+    display: flex;
+    flex-direction: column; */
+}
+.footer-logos{
+    font-size: 2vw;
+}

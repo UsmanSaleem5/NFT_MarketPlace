@@ -1,0 +1,101 @@
+@media screen and (max-width: 1024px){
+    body{
+        .disable-for-tab{
+            display: none;
+        }
+        .main-heading{
+            font-size: 5vw;
+        }
+        .sub-heading {
+            font-size: 3vw;
+        
+        }
+        .img-t-sec{
+            font-size: 2vw;
+        }
+
+    }
+    }
+    
+    @media screen and (max-width: 767px){
+        body{
+            .bottom-txt {
+                font-size: 2.8vw;
+            }
+            .top-txt {
+                font-size: 2.5vw;
+                white-space: nowrap;
+            }
+            .logo-sec {
+                font-size: 3vw;
+            }
+           .menu-txt-heading{
+            font-size:2.8vw;
+           } 
+           .cat-label-sec{
+            justify-content: end;
+           }
+           .solding{
+            display: none;
+           }
+           .ranker-s-txt{
+            justify-content: end;
+           }
+        }
+    }
+    @media screen and (max-width: 633px){
+     body{
+         .disable-for-mob{
+             display: none;
+         }
+         .enable-for-mob{
+            display: block;
+         }
+         .changing{
+            display: none;
+         }
+         .id-sec{
+            width: 70%;
+         }
+         .img-t-sec{
+            font-size: 3vw;
+            line-height: 17.2px;
+         }
+        .ranker-s-txt{
+            width: 30%;
+        }
+        .changing-r{
+            width: 100%;
+            text-align: end;
+            font-size: 4vw;
+        }
+        .img-r-sec{
+            width: 40px;
+            height: 40px;
+            margin: auto 1pc auto 0.5pc;
+        }
+        .MtxtBlock{
+            white-space: nowrap;
+        }
+ }
+    }
+
+    @media screen and (max-width: 425px){
+           body{ 
+            
+            .search-section{
+                margin: 3pc auto;
+            }
+
+
+            .main-heading{
+                font-size: 7.9vw;
+            }
+            .sub-heading {
+                font-size: 4vw;
+                font-weight: 400;
+                line-height: 25.2px;
+            }   
+  
+        }
+    }

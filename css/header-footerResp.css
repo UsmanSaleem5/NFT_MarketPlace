@@ -1,0 +1,225 @@
+/* adjusting footer mail inpust lablel for responsive  */
+@media screen and (max-width: 10px){}
+
+
+@media screen and (max-width: 1024px) {
+  body {
+    .nav-front-logo {
+      font-size: 2.5vw !important;
+  } 
+
+  /* making the navbar  */
+
+.nav-logo-sec {
+  transition: "all ease-in-out 0.7s";
+  padding-top: 1pc;
+  
+}
+.nav-img img{
+  width: 25px;
+  height: 25px;
+      }
+     .nav-txt img{
+  height: 16px;
+     }
+
+.nav-list-sec ul li a{
+  font-size: 1.3vw;
+  margin: 0;
+}
+.vl-list {
+  opacity: 0;
+}
+.nav-list-sec {
+  width: 100%;
+  flex-direction: column;
+}
+
+.ul-list {
+  display: flex !important  ;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2pc;
+}
+.ul-list li {
+  padding-bottom: 3pc;
+  display: flex;
+}
+.burger {
+  display: block;
+}
+.line{
+  height: 2px ;
+
+  width: 10px;
+}
+.line2{
+  width: 16px;
+}
+
+.navbar {
+  display: block;
+  transition: all ease-in-out 0.5s;
+  height: 400px;
+}
+.h-nav {
+  height: 60px !important;
+}
+.nav-logo-sec {
+  padding-left: 2pc;
+}
+.nav-front-logo {
+
+  font-size: 2vw;
+
+}
+.nav-btn-sec{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 0 !important;
+
+}
+
+
+
+
+ /* making the footer section  */
+ .top-footer-sec{
+  flex-direction: column;
+ }
+ .def-sec{
+  max-width: 100%;
+ }
+ .def-logo-txt img{
+  width: auto !important;
+ }
+ .def-heading{
+  width: 100%;
+  margin-top: 1pc;
+  margin-bottom: 1.5pc;
+}
+.logos{
+  font-size: 2.5vw;
+}
+.logos-heading{
+  margin-bottom: 1.3pc;
+}
+.explore-section{
+  margin-top: 2pc;
+  display: block;
+}
+.contact-footer-section{
+  width: 100%;
+}
+.footer-cont-heading{
+  margin-top: 2pc;
+}
+.footer-cont-para{
+  font-size: 1.9vw;
+  margin-top: 1pc;
+}
+ .footer-input-sec{
+min-width: 41%;
+ }
+
+}
+}
+@media screen and (max-width: 767px) {
+  body {
+
+   /* this is for nav-bar  */
+   .only-for-mobile {
+    display: none;
+  }
+  .only-for-mobile-enable{
+    display: block !important;
+  }
+  .burger {
+      position: absolute;
+      top: 30px;
+      right: 12%;
+  }
+.nav-logo-sec{
+  padding: 0;
+}
+
+  .h-nav{
+    height:48px !important;
+  
+  }
+  .burger{
+    top:15px
+  }
+
+/* adjusting footer ?*/
+.footer-cont-label-sec{
+  flex-direction: column;
+}
+.footer-input-sec{
+  min-width: 100%;
+}
+.footer-button-sec{
+  margin-top: 1pc;
+    width: 100%;
+  }
+  .footer-cont-btn {
+  position: static;
+  width: 100%;
+}
+
+
+}
+}
+@media screen and (max-width: 425px) {
+  body {
+ /* this is for nav-bar   */
+
+
+
+    .logos-heading {
+      font-size: 4vw;
+      padding-bottom: 10px;
+      /* padding-top: 20px; */
+      margin: 0;
+    }
+    .logos{
+      font-size: 5vw;
+    }
+    .nav-list-sec ul li a{
+      font-size: 4.3vw;
+    }
+    /* for footer  */
+    .footer-cont-para{
+      font-size: 3vw;
+    }
+.bottom-footer-sec p{
+  font-size: 3.5vw;
+}
+  }
+}
+
+
+@media screen and (max-width: 375px){
+  body{
+#haG {
+  font-size: 5.2vw !important;
+  padding: 0;
+  position: relative !important;
+  top: -18px !important;
+  
+}
+#footer-txting {
+  padding: 0 20px;
+  font-size: 4vw;
+  font-weight: 400;
+  line-height: 22.4px;
+  border: none;
+  font-family: "Space Mono", serif;
+  max-width: 100%;
+}
+.footer-cont-para {
+  font-size: 4vw;
+}
+  }
+}

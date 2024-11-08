@@ -1,0 +1,165 @@
+@media screen and (max-width: 1024px){
+body{
+    .disable-for-tab{
+        display: none   ;
+    }
+    .long-tags-sec{
+        display: block;
+        margin: 0;
+width: 50%;    
+    }
+    .tag-label{
+        margin-top: 1pc;
+    }
+    .main-top-heading{
+ font-size: 4.4vw;
+    }
+    .main-bottom-heading{
+font-size: 2vw;
+    }
+    .main-id-heading{
+        font-size: 2vw;
+    }
+    .main-logo-txt{
+        font-size: 2vw;
+    }
+    .main-des-heading{
+        font-size: 2vw;
+    }
+    .main-para{
+        font-size: 2vw;
+    }
+    .detail-heading{
+        font-size: 2vw;
+    }
+    .tag-class{
+        font-size: 1.5vw;
+    }
+    .main-bg-img{
+min-height:490px ;
+background-position-y: 58%;
+    }
+
+}    
+.cbtn-Txt{
+    white-space: nowrap;
+}
+.card{
+    width: 48%;
+}
+.c-heading{
+    font-size: 2.6vw
+    ;
+}
+}
+
+/* desingin for mobile */
+@media screen and (max-width: 834px){
+    body{
+       .enable-for-mob{
+            display: block;
+        }
+        .disable-for-mob{
+            display: none;
+        }
+        .main-bg-img {
+            min-height: 320px;
+            background-position-y:center;
+        }
+        .main-left-sec{
+            width: 100%;
+        }
+      
+}
+
+}
+
+@media screen and (max-width: 500px){
+ body{
+    .main-top-heading {
+        font-size: 7.4vw;
+        margin: 0;
+    }
+    .main-bottom-heading {
+        font-size: 4vw;
+}
+.timer-box{
+max-width: 260px;
+margin-bottom: 1pc;
+}
+.second-main-id-sec{
+    margin-bottom: 1pc;
+}
+.main-id-heading {
+    font-size: 4vw;
+    margin: 0;
+}
+.main-logo-txt {
+    font-size: 4vw;
+    font-weight: 400;
+    font-family: "Work Sans";
+}
+.main-des-heading {
+    font-size: 4vw;
+    margin: 0   ;
+}
+.main-para{
+    font-size: 5vw;
+}
+.detail-heading{
+    font-size: 4vw;
+    font-weight: 400;
+}
+.tags-heading{
+    font-weight: 400;
+}
+.tag-class{
+    font-size: 3vw;
+}
+.left-main-card-heading {
+    font-size: 7vw;
+    width: 100%;
+}
+.card-section{
+    padding: 0;
+}
+.card-row{
+    margin-top: 2pc;
+}
+.card{
+    width: 99%;
+}
+.crd-btn2{
+    display: flex;
+    justify-content: center;
+}
+ }
+    
+}
+@media screen and (max-width: 671px){
+    .left-main-card-heading {
+        width: 100%;
+        font-size: 4.9vw;
+        font-weight: 600;
+        line-height: 45.5px;
+    }
+    .card{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 370px){
+    body{
+        .img-sec {
+            width: 100%;
+            position: relative;
+            min-height: 206px;
+            overflow: hidden;
+        }
+        .c-heading{
+            font-size: 5.6vw;
+
+        }
+    
+    }
+}

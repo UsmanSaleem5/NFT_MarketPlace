@@ -1,0 +1,250 @@
+/* adjusting the cont mail secrch label for all responsive devices*/
+@media screen and (max-width: 1055px){
+    body{
+      .cont-mail{
+        min-width:64% ;
+      }
+    }
+    }
+    /* adjusting main profile background image for all device at different widht ? */
+    @media screen and (max-width: 870px){
+    body{
+      .bg-img img{
+        bottom: -13pc !important;
+      }
+    }
+    }
+    @media screen and (max-width: 586px){
+    body{
+    
+       .bg-img img{
+        bottom: -5pc !important;
+      }
+      
+    }
+    }
+    @media screen and (max-width: 450px){
+    body{
+
+      .bg-img img{
+        bottom: -1pc !important;
+      }
+    }
+    }
+
+
+
+@media screen and (max-width: 1024px){
+    body{
+
+        .enable-for-tab{
+            display: flex !important;
+        }
+        .disable-for-tab{
+            display: none;
+        }
+        .bg-img img{
+            bottom:-19pc;
+        }
+        .p-right-sec{
+            display: none;
+        }
+        .p-left-sec{
+            width: 70%;
+        }
+        .img-txt-sec{
+            font-size:1.7vw;
+            font-weight:500;
+        }
+        .buttons-sec{
+            margin:2pc 0;
+        }
+        .img-btn-sec i{
+   font-size:2vw !important ;
+        }
+        .plus{
+            font-size: 3.5vw !important;
+            font-weight: 100 !important;
+        }
+        .second-txt{
+            font-size: 1.9vw;
+            font-weight: 500;
+        }
+        .upper-txt{
+            font-size: 3vw;
+        }
+        .MtxtBlock{
+            width: 33%;
+        }
+       
+
+
+        /* editing the card section to make it responsvie for tablet screen */
+        .card{
+            width: 48%;
+        }
+        .c-heading{ 
+            font-size: 2.6vw;
+        }
+        .img-l-sec{
+            width: 30px;
+            height: 30px;
+        }
+        .logo-sec{
+            font-size: 20px;
+        }
+        .cBlock-sec{
+            padding-top: 18px;
+        }
+        .top-txt{
+            font-size: 15px;
+        }
+        .bottom-txt{
+            font-size:18px;
+        }
+  }
+    
+  }
+
+/* making for mobile */
+  @media screen and (max-width: 767px){
+
+body{
+    /* .enable-for-mob{
+        display: block;
+    }
+    .disable-for-mob{
+        display: none;
+    } */
+    .p-logo{
+        display: flex;
+        justify-content: center;
+     }
+.p-heading-sec{
+    font-size: 4.5vw;
+}
+.buttons-sec{
+    flex-direction: column;
+}
+.btn{
+    width: 100%;
+}
+.btn2{
+    width: 100% ;
+    margin-top: 1pc;
+
+}
+.upper-txt{
+    font-size: 4vw  ;
+}
+.menu-text-heading{
+    font-size: 3vw;
+}
+
+}
+  }
+/* making for large mobile */
+  @media screen and (max-width: 425px){
+
+body{
+    .enable-for-mob{
+        display: block;
+    }
+    .disable-for-mob{
+        display: none;
+    }
+    .p-left-sec{
+        width: 100%;
+    }
+    .p-heading-sec{
+        font-size: 6.5vw;
+    }
+    .img-txt-sec{
+        font-size: 4vw !important;
+    }
+    .img-btn-sec i{
+        font-size: 4vw !important;
+    }
+    .plus{
+        font-size: 7vw !important;
+    }
+    .p-block{
+        width: 34%;
+    }
+    .upper-txt{
+        font-size: 7vw;
+    }
+    .lower-txt{
+        font-size: 4vw !important;
+    }
+    .bio-heading{
+        margin-bottom: 0.5pc;
+        font-weight: 400;
+        font-size: 17px;
+    }
+    .bio-para{
+        font-size: 3vw !important;
+    }
+    .not-block{
+        display: none;
+    }
+   .menu-text-heading{
+    font-size: 4vw;
+   }
+
+
+   /* card style to make it reponsive for mobile  */
+   .card-row{
+    flex-direction: column;
+   }
+   .card{
+    margin: 1pc 0;
+    width: 100%;
+   }
+.c-heading{
+    font-size:5.6vw;
+}
+.logo-sec{
+    font-size: 4vw !important   ;
+}
+.cBlock-sec{
+    padding-top: 10px;
+}
+.top-txt{
+    font-size: 3vw !important;
+}
+.bottom-txt{
+    font-size:3.6vw;
+}
+
+
+/* for footer  */
+.bottom-footer-sec p{
+    font-size: 3.5vw;
+}
+
+}
+  }
+
+
+
+@media screen and (max-width: 670px){
+    body{
+         
+        .lower-txt{
+            font-size: 2.5w;
+        }
+        .img-txt-sec{
+            font-size: 2.7vw ;
+          }
+          .top-txt{
+            white-space: nowrap ;
+          }
+          
+
+          .logo-sec{
+            font-size: 3vw !important;
+          }
+    }
+}
+

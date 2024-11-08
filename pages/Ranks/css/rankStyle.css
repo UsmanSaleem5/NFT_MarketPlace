@@ -1,0 +1,190 @@
+body{
+    color: white;
+    font-family: "Work Sans";
+}
+.disable-for-pc{
+    display: none;
+}
+
+.search-section{
+
+    width: 80%;
+    margin:5pc auto;
+}
+.main-heading{
+    font-size: 51px ;
+    font-weight: 600;
+    line-height: 56.1px;
+    
+}
+.sub-heading{
+    font-size: 22px ;
+    font-weight: 400;
+    line-height: 35.2px;
+
+}
+
+/* making the card section  */
+.menu-section{
+    border-top:rgba(255, 255, 255, 1);
+    background-color: #3b3b3b;
+    }
+    .menu-bar-bg{
+        background-color: #2b2b2b;        
+    }
+.menu-bar{
+    margin: auto;
+    width:80%;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #3b3b3b;
+}
+.MtxtBlock{
+    width: 50%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:"Work Sans";
+    cursor: pointer;
+    margin-top: 4px;
+}
+.b1{
+    border-bottom:1px solid white;
+}
+.menu-text-heading{
+    font-size: 22px;
+    font-weight :600;
+    color:white;
+}   
+.not-block{
+    margin-left: 5px;
+    background-color:#858584;
+    border-radius: 20px;
+    font-size: 16px;
+    line-height: 22.4;
+    font-family: "Space Mono",serif;
+    font-weight: lighter;
+    padding: 5px 10px;
+}
+.b2 ,.b3{
+    color: #787878  ;
+}
+.not-block{
+    color: #ffff;
+}
+.blok2,.blok3{
+    background-color: #3b3b3b;
+}
+
+
+
+
+/* working on label section  */
+.menu-label{
+    display: flex;
+ width: 80%;
+ margin:2pc auto;
+ padding:12px 20px;
+ border: 1px solid  #3B3B3B;
+ border-radius: 20px;
+
+
+}
+.name-label-sec{
+    width: 45%;
+    display: flex ;
+    overflow: hidden;
+
+}
+.artist{
+    display: flex;
+    align-items: center;
+    font-family: "Space Mono";
+    color:  #858584;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+}
+.hashTag{
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-right: 1.5pc;
+}
+
+.cat-label-sec{
+display: flex;
+align-items: center;
+width: 65%;
+}
+.change{
+    width: 30%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    color: #858584;
+    font-family: "Space Mono";
+}
+
+.ranker-list{
+    width: 83%;
+    margin:auto auto 2pc auto;
+}
+.ranker-label{
+    margin-top: 1pc;
+    display: flex;
+    border-radius: 20px;
+    padding: 12px 20px;
+    font-family: "Space Mono";
+    align-items: center;
+    background-color: #3B3B3B;
+}
+.noti-sec{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #858584;
+    background-color: #2b2b2b;
+
+}
+.id-sec{
+    display: flex;
+    align-items: center;
+    width: 40%;
+}
+.img-r-sec{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: auto 1.5pc auto 1pc;
+}
+.img-r-sec img{
+    width: 100%;
+}
+.img-t-sec{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30.8px;
+}
+.changing-r{
+    width: 30%;
+ text-align: center;
+
+}
+.ranker-s-txt{
+    display: flex;
+    width: 60%;
+    
+}

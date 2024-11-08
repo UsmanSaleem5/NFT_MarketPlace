@@ -1,0 +1,447 @@
+@media screen and (max-width: 1024px) {
+  body {
+    .nav-front-logo {
+      font-size: 3vw !important;
+  } 
+
+  /* making the navbar  */
+.nav-logo-sec {
+  transition: "all ease-in-out 0.7s";
+}
+.nav-list-sec ul li a{
+  font-size: 1.3vw;
+  margin: 0;
+}
+.vl-list {
+  opacity: 0;
+}
+.nav-list-sec {
+  width: 100%;
+  flex-direction: column;
+}
+
+.ul-list {
+  display: flex !important  ;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2pc;
+}
+.ul-list li {
+  padding-bottom: 3pc;
+  display: flex;
+}
+.burger {
+  display: block;
+}
+.line{
+  height: 2px ;
+
+  width: 10px;
+}
+.line2{
+  width: 16px;
+}
+
+.navbar {
+  display: block;
+  transition: all ease-in-out 0.5s;
+  height: 400px;
+}
+.h-nav {
+  height: 60px !important;
+}
+.nav-logo-sec {
+  padding-left: 2pc;
+}
+.nav-front-logo {
+
+  font-size: 2vw;
+
+}
+.nav-btn-sec{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 0 !important;
+
+}
+
+
+
+
+/* working on labels */
+.label{
+  width: 60%;
+  height: 60px;
+}
+.label-txt {
+  padding-left: 1pc;
+  font-size: 2.2vw;
+  font-weight: 600;
+}
+
+
+
+
+
+
+
+ /* making the footer section  */
+ .explore-sec{
+  margin:3pc 0;
+}
+.footer-logos{
+  font-size:4vw;
+}
+.top-footer-sec {
+  display: block;
+  width: 100%;
+}
+
+.footer-logo {
+  padding: 0;
+}
+.def-sec {
+  margin-bottom: 1pc;
+  width: 100%;
+}
+.def-heading {
+  margin-bottom: 1pc;
+
+font-size: 2.5vw;
+}
+.footer-ul-list li{
+  font-size: 2vw;
+  
+}
+.footer-logo{
+  margin-top: 2pc;
+  margin-bottom: 1pc;
+}
+.footer-logo-txt {
+  font-size: 3vw;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  /* right: 1pc; */
+}
+.logos{
+  font-size: 3vw;
+}
+#haG{
+  font-size: 3.2vw !important;
+  padding: 0;
+  position: relative !important;
+  top: -18px !important;
+}
+.logos-heading{
+  font-size: 2vw;
+  padding-bottom: 10px;
+}
+
+.cont-footer {
+  margin: 0;
+  flex-direction: column;
+  width: 100%;
+}
+.cont-para{
+  font-size: 2vw;
+}
+
+.cont-mail-sec {
+  display: flex;
+  align-items: center;
+}
+.cont-mail {
+  min-width: 50%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  height: 50px;
+  background-color: white;
+}
+.cont-mail input {
+  border: none;
+  padding: 16px;
+  background: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.6px;
+}
+
+.cont-btn {
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 22.4px;
+  font-weight: 600;
+  display: flex;
+  padding: 15px 40px;
+  border-radius: 20px;
+  background-color: #a259ff;
+  color: white;
+  border: none;
+  position: relative;
+  right: 5pc;
+}
+.cont-heading{
+  font-size: 3vw;
+}
+.cont-btn:hover {
+  color: #a259ff;
+  background-color: #3b3b3b;
+}
+.cont-btn-img {
+  margin-right: 10px;
+}
+
+.footer hr {
+  margin: 1pc;
+}
+.id{
+  width: 40%;
+  padding:4px 10px;
+}
+.coming-logo{
+  width: 30px;
+  height: 30px;
+}
+.bottom-footer-sec p{
+  min-width: 100%;
+  font-size: 1.5;
+}
+}
+}
+@media screen and (max-width: 767px) {
+  body {
+   main{
+  align-items: center;  
+     display: flex;
+    flex-direction: column !important;
+height: auto;
+   }
+   /* this is for nav-bar  */
+   .only-for-mobile {
+    display: none;
+  }
+  .only-for-mobile-enable{
+    display: block !important;
+  }
+  .burger {
+      position: absolute;
+      top: 30px;
+      right: 12%;
+  }
+  .nav-logo-sec {
+    font-size: 4vw;
+  }
+
+  .h-nav{
+    height:48px !important;
+  
+  }
+  .burger{
+    top:15px
+  }
+
+
+
+/* this is for main section  */  
+
+   .con-img-sec{
+    width: 100%; 
+    height: 100%;
+   } 
+   .con-img-sec img {
+    height: 384px;
+}
+   .con-data-sec{
+    width: 80%; 
+   } 
+   .con-heading1 {
+    font-size: 5.5vw; 
+    font-weight: 600;
+    line-height: 68.1px;
+    font-family: "Work Sans", sans-serif;
+    margin-bottom: 0pc;
+}    
+.con-heading2 {
+  font-size: 3.7vw;
+  font-weight: 400;
+  line-height: 20.5px;
+  margin-bottom: 2pc;
+}  
+
+.label-txt{
+  font-size: 3.5vw;
+}
+
+.label{
+  width: 80%;
+  height: 60px;  
+}
+.wallet-label-sec{
+  margin-bottom: 2pc;
+}
+
+
+
+
+
+
+
+
+
+
+/* this is for footer */
+.cont-mail-sec{
+  flex-direction: column;
+  width: 100%;
+}
+.cont-footer{
+  width: 100%;
+}
+.cont-btn{
+  position: static;
+  width: 100%;
+  justify-content: center;
+  margin-top: 1pc;
+}
+.cont-mail{
+  border-radius: 20px;
+  width: 100%;
+}
+.cont-btnn{
+  width: 100%;
+  display: flex;
+ justify-content: center;
+}
+.explore-sec{
+  width: 100%;
+  margin:2pc 0;
+  align-items: start;
+}
+.footer-logos{
+  font-size: 7vw;
+}
+.footer-logo{
+  margin: 1pc 0;
+  width: 100%;
+  font-weight: 600;
+}
+.footer-logo-txt{
+  position: static;
+}
+.nav-footer-sec{
+  padding: 1pc 0 0 0;
+  font-size: 5vw;
+  
+}
+.nav-button {
+  white-space: nowrap;
+  cursor: pointer;
+  border: none;
+  padding: 17px 39px;
+  font-size: 11px;
+  font-weight: 400;
+  font-family: Work Sans, sans-serif;
+  display: flex;
+  background-color: #a259ff;
+  border-radius: 20px;
+  color: white;
+}
+.logos-heading {
+  font-size: 3vw;
+  padding-bottom: 10px;
+  padding-top: 20px;
+  margin: 0;
+}
+
+.logos{
+  font-size: 3vw;
+}
+.footer-ul-list li {
+  font-size: 2.5vw;
+}
+.cont-heading {
+  font-size: 3.3vw;
+}
+
+.cont-para {
+  font-size: 3vw;
+}
+.footer-logo-txt {
+  font-size: 3vw;
+}
+
+
+}
+}
+@media screen and (max-width: 425px) {
+  body {
+ /* this is for nav-bar   */
+    .con-heading1{
+      font-size: 7.5vw;
+    }
+    .con-img-sec img {
+      height: 260px;
+  }
+
+    .nav-front-logo {
+      font-size: 5vw !important;
+      padding: 0;
+    }
+    .def-heading {
+      font-size: 4vw;
+      margin: 10px 0;
+    }
+    
+    .logos-heading {
+      font-size: 4vw;
+      padding-bottom: 10px;
+      /* padding-top: 20px; */
+      margin: 0;
+    }
+    .logos{
+      font-size: 5vw;
+    }
+    .footer-logo-txt{
+      font-size: 6vw;
+    }
+    
+    .footer-ul-list li{
+      font-size: 4vw;
+    }
+    .cont-heading {
+      font-size: 5.3vw;
+    }
+    .cont-para {
+      font-size: 5vw;
+    }
+    .nav-list-sec ul li a{
+      font-size: 4.3vw;
+    }
+  }
+}
+
+
+@media screen and (max-width: 375px){
+  body{
+    .con-heading2 {
+      font-size: 3.7vw;
+      font-weight: 400;
+      line-height: 20.5px;
+      margin-bottom: 2pc;
+  }
+  .con-heading2{
+font-size: 4vw;
+  }
+  .label-txt {
+    font-size: 5.5vw;
+}
+#haG {
+  font-size: 5.2vw !important;
+  padding: 0;
+  position: relative !important;
+  top: -18px !important;
+}
+  }
+}

@@ -1,0 +1,98 @@
+@media screen and (max-width: 1024px) {
+  body {
+    .nav-front-logo {
+      font-size: 3vw !important;
+  }  
+
+/* working on the input section  */
+.input-section {
+  width: 90%;
+}
+.input-data{
+  width: 100%;
+  padding: 10px 15px;
+}
+.button-sec {
+  width: 100%;
+  margin-top: 2pc;
+}
+
+.accBtn{
+  width: 100%;
+}
+
+
+
+
+
+
+}
+}
+@media screen and (max-width: 767px) {
+  body {
+   main{
+  align-items: center;  
+     display: flex;
+    flex-direction: column !important;
+height: auto;
+   }
+   /* this is for nav-bar  */
+   .only-for-mobile {
+    display: none;
+  }
+  .only-for-mobile-enable{
+    display: block !important;
+  }
+
+
+
+/* this is for main section  */
+
+   .con-img-sec{
+    width: 100%;
+    height: 100%;
+   }
+   .con-img-sec img{
+
+    height: 275px;
+
+   }
+   .con-data-sec{
+    width: 80%;
+   }
+   .con-heading1 {
+    font-size: 5.5vw;
+    font-weight: 600;
+    line-height: 68.1px;
+    font-family: "Work Sans", sans-serif;
+    margin-bottom: 0pc;
+}
+.con-heading2 {
+  font-size: 2.7vw;
+  font-weight: 400;
+  line-height: 20.5px;
+  margin-bottom: 2pc;
+}
+.input-section{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  width:100%;
+}
+.input-data{
+  width: 70%;
+}
+.button-sec {
+  width: 100%;
+  margin-top: 2pc;
+  display: flex;
+  margin-bottom: 2pc;
+  justify-content: center;
+}
+.accBtn{
+  width: 76%;
+  padding: 11px;
+}
+
+}
+}

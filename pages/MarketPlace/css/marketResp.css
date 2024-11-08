@@ -1,0 +1,106 @@
+@media screen and (max-width: 1024px){
+    body{
+        .disable-for-tab{
+            display: none;
+        }
+        .main-heading{
+            font-size: 5vw;
+        }
+        .sub-heading {
+            font-size: 3vw;
+        
+        }
+      /* editing the card section to make it responsvie for tablet screen */
+      .card{
+        width: 48%;
+    }
+    .c-heading{ 
+        font-size: 2.6vw;
+    }
+    .img-l-sec{
+        width: 30px;
+        height: 30px;
+    }
+    .logo-sec{
+        font-size: 20px;
+    }
+    .cBlock-sec{
+        padding-top: 18px;
+    }
+    .top-txt{
+        font-size: 15px;
+    }
+    .bottom-txt{
+        font-size:18px;
+    }
+    }
+    }
+    
+    @media screen and (max-width: 650px){
+        body{
+            .bottom-txt {
+                font-size: 2.8vw;
+            }
+            .top-txt {
+                font-size: 2.5vw;
+                white-space: nowrap;
+            }
+            .logo-sec {
+                font-size: 3vw;
+            }
+            .menu-text-heading {
+                font-size: 4vw;
+                font-weight: 600;
+                color: white;
+            }
+        .not-block{
+            font-size: 2.8vw;
+        }
+            
+        }
+    }
+
+
+    @media screen and (max-width: 425px){
+        body{
+            .disable-for-mob{
+                display: none;
+            }
+            .search-section{
+                margin: 3pc auto;
+            }
+
+
+            .main-heading{
+                font-size: 7.9vw;
+            }
+            .sub-heading {
+                font-size: 4vw;
+                font-weight: 400;
+                line-height: 25.2px;
+            }   
+   /* card style to make it reponsive for mobile  */
+   .card-row{
+    flex-direction: column;
+   }
+   .card{
+    margin: 1pc 0;
+    width: 100%;
+   }
+.c-heading{
+    font-size:5.6vw;
+}
+.logo-sec{
+    font-size: 4vw !important   ;
+}
+.cBlock-sec{
+    padding-top: 10px;
+}
+.top-txt{
+    font-size: 3vw !important;
+}
+.bottom-txt{
+    font-size:3.6vw;
+}
+        }
+    }

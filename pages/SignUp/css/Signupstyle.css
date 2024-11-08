@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* making the navBar  */
+body{
+    background-color: #2b2b2b;
+}
+
+
+.disable-for-style{
+    display: none;
+}
+
+/* editing the main section  */
+main{
+    height: 691px;
+    display: flex;
+    color: white;
+    font-family: "Work Sans",sans-serif;
+}
+
+.con-img-sec{
+    width: 50%;
+    height: 100%;
+    /* overflow: hidden; */
+    /* border: none; */
+}
+.con-img-sec img {
+     width: 100%;
+     height: 100%;
+}
+.con-data-sec{
+    width: 40%;
+    height: 80%;
+
+    margin: auto    ;
+}
+.con-heading1{
+    font-size: 3.5vw;
+    font-weight:600 ;
+    line-height: 56.1px;
+    font-family: "Work Sans",sans-serif;
+    margin-bottom: 1pc;
+}
+.con-heading2{
+        font-size: 1.7vw;
+        font-weight: 400;
+        line-height: 35.5px;
+        margin-bottom: 2pc;
+}
+.input-section{
+    width: 70%;
+}
+.input-data{
+    display: flex;
+    background-color: white;
+    margin-top: 1pc;
+ border-radius: 20px;
+ overflow: hidden;
+ width: 80%;
+ padding: 15px 15px 15px 15px ;
+}
+.img-sec{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.input-sec{
+    font-size: 16px;
+    border: none;
+    color: black;
+}
+.button-sec{
+    width: 70%;
+    margin-top: 2pc;
+}
+.accBtn{
+    padding: 15px 15px;
+    border-radius: 20px;
+    width: 90%;
+    font-size: 16px;
+    border: none;
+    background-color: #a259ff;
+    color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
